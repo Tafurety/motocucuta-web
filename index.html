@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moto Cúcuta — Repuestos y asesoría</title>
+<meta name="description" content="Moto Cúcuta: venta de repuestos, accesorios y asesoría para motos. Atención por WhatsApp y envíos a municipios de Norte de Santander.">
+<style>
+  :root{
+    --teal:#0F3D3E; --sand:#E8DCC8; --cream:#F7F4EE; --coral:#E4572E; --ink:#1B2B2B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  header{background:var(--teal);color:var(--cream);padding:20px 0}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{font-weight:700;font-size:20px;letter-spacing:.2px}
+  nav a{color:var(--sand);text-decoration:none;margin-left:18px;font-size:14px}
+  nav a:hover{color:#fff}
+  .hero{padding:64px 0 48px}
+  .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 16px}
+  .hero p{font-size:18px;max-width:620px;margin:0 0 28px}
+  .badge{display:inline-block;background:var(--coral);color:#fff;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px;margin-bottom:18px}
+  .btn{display:inline-block;background:var(--teal);color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:10px}
+  .btn:hover{background:#155e5f}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;padding:16px 0 56px}
+  .card{background:#fff;border:1px solid #e6e0d4;border-radius:14px;padding:22px}
+  .card h3{margin:0 0 8px;font-size:17px}
+  .card p{margin:0;font-size:15px;color:#3d4d4d}
+  .info{background:var(--sand);padding:48px 0}
+  .info dl{display:grid;grid-template-columns:180px 1fr;gap:10px 16px;margin:0}
+  .info dt{font-weight:700;font-size:14px}
+  .info dd{margin:0;font-size:15px}
+  footer{background:var(--teal);color:var(--sand);padding:24px 0;font-size:13px}
+  footer a{color:var(--cream)}
+  @media(max-width:560px){.info dl{grid-template-columns:1fr}.info dd{margin-bottom:12px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Moto Cúcuta</div>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#empresa">Empresa</a>
+      <a href="privacidad.html">Privacidad</a>
+      <a href="terminos.html">Términos</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge">Norte de Santander</span>
+      <h1>Repuestos y asesoría para tu moto, sin salir de tu municipio.</h1>
+      <p>Cotizamos por WhatsApp, confirmamos disponibilidad y coordinamos el envío. Atendemos en Los Patios, Cúcuta y municipios de Norte de Santander.</p>
+      <a class="btn" href="https://wa.me/573194434541?text=Hola%2C%20quiero%20cotizar%20un%20repuesto">Cotizar por WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="servicios" class="wrap">
+    <div class="grid">
+      <article class="card">
+        <h3>Repuestos</h3>
+        <p>Partes y accesorios para motos de las principales marcas. Consultá disponibilidad por WhatsApp.</p>
+      </article>
+      <article class="card">
+        <h3>Asesoría</h3>
+        <p>Te ayudamos a identificar la pieza correcta según tu modelo y año.</p>
+      </article>
+      <article class="card">
+        <h3>Envíos</h3>
+        <p>Coordinamos entrega en Los Patios, Cúcuta y municipios del departamento.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="empresa" class="info">
+    <div class="wrap">
+      <h2>Información del negocio</h2>
+      <dl>
+        <dt>Razón social</dt>
+        <dd>ROSA MYRIAM TARAZONA GELVEZ</dd>
+        <dt>Nombre comercial</dt>
+        <dd>Moto Cúcuta</dd>
+        <dt>NIT</dt>
+        <dd>27673119-3</dd>
+        <dt>Dirección</dt>
+        <dd>Mz 3 Casa 10, Urb. La Campiña, Los Patios, Norte de Santander, Colombia</dd>
+        <dt>Teléfono / WhatsApp</dt>
+        <dd><a href="tel:+573194434541">+57 319 443 4541</a></dd>
+        <dt>Actividad</dt>
+        <dd>Comercio de repuestos, partes y accesorios para motocicletas; asesoría técnica.</dd>
+        <dt>Horario</dt>
+        <dd>Lunes a sábado, 8:00 a 18:00</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="y">2026</span> Moto Cúcuta · <a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Términos y condiciones</a>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
